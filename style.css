@@ -1,0 +1,102 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url(pexels-elijah-o\'donnell-3473569.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 85px;
+    cursor: pointer;
+}
+.cart{
+    width: 75px;
+    cursor: pointer;
+}
+.nav{
+    padding-left: 60px;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-bottom: 17px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.content p{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: bisque;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg,lightpink,aqua);
+    border-radius: 6px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 8px 22px whitesmoke;
+}
+.arrow-icons{
+    margin-top: 30px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 30px;
+    margin-right: 25px;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 20px gainsboro;
+}
+.feature-img{
+    height: 90%;
+    bottom: 0;
+    position: absolute;
+    right: 150px;
+    box-sizing: border-box;
+    box-shadow: 2px 8px 25px whitesmoke;
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -170px;
+    bottom: 200px;
+}
+.social-links a{
+    text-decoration: none;
+    color: khaki;
+    padding-right: 20px;
+    font-size: 15px;
+}
